@@ -63,7 +63,7 @@ class TriangleAppTests: XCTestCase {
     } else if Double((sides[0] * sides[0] + sides[1] * sides[1])).squareRoot() == Double(sides[2]) {
       return "Segitiga Siku-Siku"
     } else {
-      return "Segitiga Sembarang Testing"
+      return "Segitiga Sembarang"
     }
   }
 
